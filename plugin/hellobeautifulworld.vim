@@ -1,9 +1,3 @@
-"=============================================================================
-" File: hello-beautiful-world.vim
-" Author: 
-" Created: 2016-12-19
-"=============================================================================
-
 scriptencoding utf-8
 
 if exists('g:loaded_hellobeautifulworld')
