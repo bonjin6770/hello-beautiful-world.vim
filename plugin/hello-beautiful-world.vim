@@ -6,7 +6,7 @@
 
 scriptencoding utf-8
 
-if exists('g:loaded_hello-beautiful-world')
+if exists('g:loaded_hellobeautifulworld')
     finish
 endif
 let g:loaded_hello-beautiful-world = 1
@@ -14,7 +14,7 @@ let g:loaded_hello-beautiful-world = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-:nmap <silent> <leader>z :call hello-beautiful-world#helloworld()<CR>
+:nmap <silent> <leader>z :call hellobeautifulworld#helloworld()<CR>
 
 let &cpo = s:save_cpo
 unlet s:save_cpo

@@ -6,15 +6,15 @@
 
 scriptencoding utf-8
 
-if !exists('g:loaded_hello-beautiful-world')
+if !exists('g:loaded_hellobeautifulworld')
     finish
 endif
-let g:loaded_hello-beautiful-world = 1
+let g:loaded_hellobeautifulworld = 1
 
 let s:save_cpo = &cpo
 set cpo&vim
 
-function! hello-beautiful-world#helloworld()
+function! hellobeautifulworld#helloworld()
   echo "Hello World!"
 endfunction
 
