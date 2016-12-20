@@ -14,7 +14,7 @@ let g:loaded_hello-beautiful-world = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-
+:nmap <silent> <leader>z :call hello-beautiful-world#helloworld()<CR>
 
 let &cpo = s:save_cpo
 unlet s:save_cpo

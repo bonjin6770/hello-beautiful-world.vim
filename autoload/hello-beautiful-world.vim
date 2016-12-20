@@ -14,7 +14,9 @@ let g:loaded_hello-beautiful-world = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-
+function! hello-beautiful-world#helloworld()
+  echo "Hello World!"
+endfunction
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
